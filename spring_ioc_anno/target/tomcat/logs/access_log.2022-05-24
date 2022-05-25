@@ -1,3 +1,0 @@
-0:0:0:0:0:0:0:1 - - [24/May/2022:19:38:45 +0800] "GET /spring_ioc_anno HTTP/1.1" 302 - http-bio-9000-exec-1 0
-0:0:0:0:0:0:0:1 - - [24/May/2022:19:38:45 +0800] "GET /spring_ioc_anno/ HTTP/1.1" 200 52 http-bio-9000-exec-3 393
-0:0:0:0:0:0:0:1 - - [24/May/2022:19:38:48 +0800] "GET /spring_ioc_anno/userServlet HTTP/1.1" 404 1005 http-bio-9000-exec-5 1
