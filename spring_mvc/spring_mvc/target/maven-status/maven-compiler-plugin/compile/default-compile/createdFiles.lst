@@ -7,3 +7,4 @@ com\ricky\domain\User.class
 com\ricky\dao\UserDao.class
 com\ricky\service\UserService.class
 com\ricky\web\UserServlet.class
+com\ricky\domain\Vo.class

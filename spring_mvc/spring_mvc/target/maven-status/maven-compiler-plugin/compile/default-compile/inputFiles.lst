@@ -6,4 +6,5 @@ D:\workplace\spring_mvc\spring_mvc\src\main\java\com\ricky\dao\UserDao.java
 D:\workplace\spring_mvc\spring_mvc\src\main\java\com\ricky\listener\ContextLoadListener.java
 D:\workplace\spring_mvc\spring_mvc\src\main\java\com\ricky\controller\UserController.java
 D:\workplace\spring_mvc\spring_mvc\src\main\java\com\ricky\dao\impl\UserDaoImpl.java
+D:\workplace\spring_mvc\spring_mvc\src\main\java\com\ricky\domain\Vo.java
 D:\workplace\spring_mvc\spring_mvc\src\main\java\com\ricky\listener\WebApplicationContextUtils.java
