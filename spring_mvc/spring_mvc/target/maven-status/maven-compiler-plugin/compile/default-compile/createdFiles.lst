@@ -1,9 +1,0 @@
-com\ricky\controller\UserController.class
-com\ricky\dao\impl\UserDaoImpl.class
-com\ricky\service\impl\UserServiceImpl.class
-com\ricky\listener\ContextLoadListener.class
-com\ricky\listener\WebApplicationContextUtils.class
-com\ricky\domain\User.class
-com\ricky\dao\UserDao.class
-com\ricky\service\UserService.class
-com\ricky\web\UserServlet.class
