@@ -25,6 +25,17 @@ public class UserController {
         return modelAndView;
     }
 
+
+    @RequestMapping("/quick3")
+    public ModelAndView save3() {
+
+        ModelAndView modelAndView = new ModelAndView();
+        modelAndView.setViewName("/jsp/success.jsp");
+        modelAndView.addObject("username","zhangsan");
+
+        return modelAndView;
+    }
+
     @RequestMapping(value = "/quick",method = RequestMethod.GET)
     public String save() {
         System.out.println("mvc执行...");
