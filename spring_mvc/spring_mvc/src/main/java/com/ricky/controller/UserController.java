@@ -5,12 +5,16 @@ import com.ricky.domain.User;
 import com.ricky.domain.Vo;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletResponse;
+import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
+
 
 @RequestMapping("/user")
 @Controller
@@ -21,7 +25,7 @@ public class UserController {
 
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("/jsp/success.jsp");
-        modelAndView.addObject("username","zhangsan");
+        modelAndView.addObject("username", "zhangsan");
 
         return modelAndView;
     }
@@ -32,12 +36,12 @@ public class UserController {
 
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("/jsp/success.jsp");
-        modelAndView.addObject("username","zhangsan");
+        modelAndView.addObject("username", "zhangsan");
 
         return modelAndView;
     }
 
-    @RequestMapping(value = "/quick",method = RequestMethod.GET)
+    @RequestMapping(value = "/quick", method = RequestMethod.GET)
     public String save() {
         System.out.println("mvc执行...");
         return "/jsp/success.jsp";
@@ -118,14 +122,32 @@ public class UserController {
     // required用来指定是否非必须，defaultValue指定默认值
     @RequestMapping("/demo6")
     @ResponseBody
+    // @RequestParam取别名
     public void save6(@RequestParam(value = "name", required = false, defaultValue = "ricky") String username) {
         System.out.println(username);
     }
 
+    // Restful风格
     @RequestMapping("/demo7/{username}")
     @ResponseBody
     public void save7(@PathVariable(value = "username", required = true) String username) {
         System.out.println(username);
+    }
+
+    // 自定义类型转换器
+    @RequestMapping("/demo8")
+    @ResponseBody
+    public void save8(Date date) throws IOException {
+        System.out.println(date);
+    }
+
+    // 文件上传和保存文件
+    @RequestMapping("/demo9")
+    @ResponseBody
+    public void save9(String username, MultipartFile uploadFile) throws IOException {
+        System.out.println(username);
+        String originalFilename = uploadFile.getOriginalFilename();
+        uploadFile.transferTo(new File("D:\\c盘\\demo\\" + originalFilename));
     }
 
 }
