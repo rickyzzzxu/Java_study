@@ -24,7 +24,7 @@
     <!--mvc注解驱动-->
     <mvc:annotation-driven conversion-service="conversionService"/>
 
-    <!--开放资源的访问权限-->
+    <!--开放静态资源的访问权限-->
     <!--<mvc:resources mapping="/js/**" location="/js/"/>-->
 
     <!--交给tomcat去找静态资源-->
