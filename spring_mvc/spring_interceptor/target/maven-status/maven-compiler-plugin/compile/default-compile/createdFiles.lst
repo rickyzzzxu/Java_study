@@ -1,0 +1,3 @@
+com\ricky\controller\TargetController.class
+com\ricky\interceptor\MyInterceptor1.class
+com\ricky\interceptor\MyInterceptor2.class
