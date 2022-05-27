@@ -5,6 +5,7 @@ import com.ricky.dao.UserDao;
 import com.ricky.domain.Role;
 import com.ricky.domain.User;
 import com.ricky.service.UserService;
+import org.springframework.dao.EmptyResultDataAccessException;
 
 import java.util.List;
 
@@ -45,6 +46,15 @@ public class UserServiceImpl implements UserService {
         userDao.delUserRoleRel(userId);
         //2、删除sys_user表
         userDao.del(userId);
+    }
+
+    public User login(String username, String password) {
+        try {
+            User user = userDao.findByUsernameAndPassword(username,password);
+            return user;
+        }catch (EmptyResultDataAccessException e){
+            return null;
+        }
     }
 
 

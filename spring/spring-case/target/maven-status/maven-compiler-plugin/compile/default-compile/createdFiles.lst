@@ -11,3 +11,4 @@ com\ricky\dao\RoleDao.class
 com\ricky\service\impl\UserServiceImpl.class
 com\ricky\domain\Role.class
 com\ricky\dao\UserDao.class
+com\ricky\interceptor\PrivilegeInterceptor.class

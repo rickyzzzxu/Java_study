@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>数据 - AdminLTE2定制版 | Log in</title>
+<title>数据 - Admin | Log in</title>
 
 <meta
 	content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
@@ -27,13 +27,13 @@
 <body class="hold-transition login-page">
 	<div class="login-box">
 		<div class="login-logo">
-			<a href="all-admin-index.html"><b>ITCAST</b>后台管理系统</a>
+			<a href="all-admin-index.html"><b>RICKY</b>后台管理系统</a>
 		</div>
 		<!-- /.login-logo -->
 		<div class="login-box-body">
 			<p class="login-box-msg">登录系统</p>
 
-			<form action="${pageContext.request.contextPath}/pages/main.jsp"
+			<form action="${pageContext.request.contextPath}/user/login"
 				method="post">
 				<div class="form-group has-feedback">
 					<input type="text" name="username" class="form-control"
