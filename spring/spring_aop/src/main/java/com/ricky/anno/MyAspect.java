@@ -29,19 +29,20 @@ public class MyAspect {
     }
 
     @AfterThrowing("execution(* com.ricky.anno.*.*(..))")
-    public void afterThrowing(){
+    public void afterThrowing() {
         System.out.println("异常抛出增强........");
     }
 
     //@After("execution(* com.ricky.anno.*.*(..))")
     //@After("pointcut()")
     @After("MyAspect.pointcut()")
-    public void after(){
+    public void after() {
         System.out.println("最终增强.......");
     }
 
     // 定义切点表达式
     @Pointcut("execution(* com.ricky.anno.*.*(..))")
-    public void pointcut(){}
+    public void pointcut() {
+    }
 
 }

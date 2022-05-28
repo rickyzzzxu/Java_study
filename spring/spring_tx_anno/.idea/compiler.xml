@@ -10,8 +10,5 @@
         <module name="spring_tx_anno" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring_aop" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
