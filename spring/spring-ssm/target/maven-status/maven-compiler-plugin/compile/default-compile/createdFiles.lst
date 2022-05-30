@@ -1,0 +1,5 @@
+com\ricky\service\impl\AccountServiceImpl.class
+com\ricky\domain\Account.class
+com\ricky\controller\AccountController.class
+com\ricky\mapper\AccountMapper.class
+com\ricky\service\AccountService.class

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script src="js/axios-0.18.0.js"></script>
+
+<script>
+
+    /*axios({
+        method : "get",
+        url : "http://localhost:9000/ajax-demo/axiosServlet?username=zhangsan"
+    }).then(function (resp) {
+        alert(resp.data);
+    });*/
+
+
+    /*axios({
+        method : "post",
+        url : "http://localhost:9000/ajax-demo/axiosServlet",
+        data : "username=zhangsan"
+    }).then(function (resp) {
+        alert(resp.data);
+    });*/
+
+    /*axios.get("http://localhost:9000/ajax-demo/axiosServlet?username=zhangsan")
+        .then(function (resp) {
+            alert(resp.data);
+        });*/
+
+
+    axios.post("http://localhost:9000/ajax-demo/axiosServlet?username=zhangsan", "username=zhangsan")
+        .then(function (resp) {
+            alert(resp.data);
+        });
+
+</script>
+
+</body>
+</html>

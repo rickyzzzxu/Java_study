@@ -1,0 +1,6 @@
+com\ricky\web\SelectAllServlet.class
+com\ricky\mapper\BrandMapper.class
+com\ricky\pojo\Brand.class
+com\ricky\web\AddServlet.class
+com\ricky\service\BrandService.class
+com\ricky\util\SqlSessionFactoryUtils.class
