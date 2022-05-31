@@ -39,12 +39,10 @@ public class RequestMappingController {
         return "success";
     }
 
-    @RequestMapping("/testPath/{id}/{username}")
-    public String testPath(@PathVariable("id") Integer id, @PathVariable("username") String username) {
-
+    @RequestMapping("/testPath/{id}/{name}")
+    public String testPath(@PathVariable("id") Integer id, @PathVariable("name") String username) {
         System.out.println("id:" + id);
         System.out.println("username:" + username);
-
         return "success";
     }
 
