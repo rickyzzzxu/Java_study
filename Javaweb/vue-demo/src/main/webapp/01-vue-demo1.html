@@ -8,23 +8,24 @@
 
 <div id="app">
 
-    <input v-model="username">
-    {{username}}
+    <a :href="url">点击一下</a>
 
 </div>
 
-
 <script src="js/vue.js"></script>
+
 <script>
 
     new Vue({
-        el: "#app",
+
+        el:"#app",
         data() {
             return {
-                username:""
+                username:"",
+                url:"https://www.baidu.com"
             }
         }
-    })
+    });
 
 </script>
 

@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [07/May/2022:00:00:02 +0800] "GET /request-demo HTTP/1.1" 302 - http-bio-9000-exec-1 0
+0:0:0:0:0:0:0:1 - - [07/May/2022:00:00:02 +0800] "GET /request-demo/ HTTP/1.1" 200 52 http-bio-9000-exec-3 34
+0:0:0:0:0:0:0:1 - - [07/May/2022:00:00:04 +0800] "GET /request-demo/login.html HTTP/1.1" 304 - http-bio-9000-exec-4 5
+0:0:0:0:0:0:0:1 - - [07/May/2022:00:00:17 +0800] "POST /request-demo/loginServlet HTTP/1.1" 200 12 http-bio-9000-exec-8 517
+0:0:0:0:0:0:0:1 - - [07/May/2022:00:00:21 +0800] "GET /request-demo/register.html HTTP/1.1" 304 - http-bio-9000-exec-10 1
+0:0:0:0:0:0:0:1 - - [07/May/2022:00:00:27 +0800] "POST /request-demo/registerServlet HTTP/1.1" 200 24 http-bio-9000-exec-3 4

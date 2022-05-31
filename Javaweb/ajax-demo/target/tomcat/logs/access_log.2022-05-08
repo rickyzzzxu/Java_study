@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [08/May/2022:23:29:24 +0800] "GET /ajax-demo HTTP/1.1" 302 - http-bio-9000-exec-1 0
+0:0:0:0:0:0:0:1 - - [08/May/2022:23:29:25 +0800] "GET /ajax-demo/ HTTP/1.1" 200 52 http-bio-9000-exec-3 459
+0:0:0:0:0:0:0:1 - - [08/May/2022:23:29:27 +0800] "GET /ajax-demo/ajaxServlet HTTP/1.1" 200 13 http-bio-9000-exec-4 2
+0:0:0:0:0:0:0:1 - - [08/May/2022:23:31:54 +0800] "GET /ajax-demo HTTP/1.1" 302 - http-bio-9000-exec-1 0
+0:0:0:0:0:0:0:1 - - [08/May/2022:23:31:54 +0800] "GET /ajax-demo/ HTTP/1.1" 200 52 http-bio-9000-exec-3 27
+0:0:0:0:0:0:0:1 - - [08/May/2022:23:31:58 +0800] "GET /ajax-demo/01-ajax-demo1.html HTTP/1.1" 200 689 http-bio-9000-exec-5 1
+0:0:0:0:0:0:0:1 - - [08/May/2022:23:31:58 +0800] "GET /ajax-demo/ajaxServlet HTTP/1.1" 200 13 http-bio-9000-exec-7 2

@@ -1,0 +1,5 @@
+com\ricky\RegisterServlet.class
+com\ricky\LoginServlet.class
+com\ricky\pojo\User.class
+com\ricky\mapper\UserMapper.class
+com\ricky\util\SqlSessionFactoryUtils.class

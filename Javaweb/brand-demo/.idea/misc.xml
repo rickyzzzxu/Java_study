@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../ajax-demo" />
+    <file type="web" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://$PROJECT_DIR$/../filter-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/../jsp-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/../travel" />
+    <file type="web" url="file://$PROJECT_DIR$/../vue-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/../../A_test/brand-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/../../AAA/Java_Web/2021最新JavaWeb（高效学习版）/JavaWeb-资料/day12-Filter&amp;Listener&amp;AJAX/02-AJAX/资料/3. 品牌列表案例/初始工程/brand-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/../../AAA/Java_Web/2021最新JavaWeb（高效学习版）/JavaWeb-资料/day14-综合案例/资料/01-初始工程/brand-case" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../Java_project/vinfo/pom.xml" />
+        <option value="$PROJECT_DIR$/../travel/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
