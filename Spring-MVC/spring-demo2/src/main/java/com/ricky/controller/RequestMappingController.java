@@ -46,4 +46,11 @@ public class RequestMappingController {
         return "success";
     }
 
+    @RequestMapping("/demo/{username}/{password}")
+    public void demo(@PathVariable("username") String username, @PathVariable("password") int password) {
+
+        System.out.println("username:" + username);
+        System.out.println("password:" + password);
+    }
+
 }

@@ -1,2 +1,4 @@
+com\ricky\controller\bean\User.class
+com\ricky\controller\ParamController.class
 com\ricky\controller\RequestMappingController.class
 com\ricky\controller\TestController.class

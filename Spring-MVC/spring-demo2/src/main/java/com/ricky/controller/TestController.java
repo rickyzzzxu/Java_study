@@ -8,7 +8,12 @@ public class TestController {
 
     @RequestMapping("/")
     public String index() {
-        return "index";
+        return "test_param";
+    }
+
+    @RequestMapping("param")
+    public String param() {
+        return "test_param";
     }
 
 }
