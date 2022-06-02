@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-demo2" />
         <module name="spring-demo1" />
+        <module name="spring-demo3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-demo1" target="1.5" />
       <module name="spring-demo2" target="1.5" />
+      <module name="spring-demo3" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
