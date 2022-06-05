@@ -1,3 +1,4 @@
 com\ricky\controller\ViewController.class
+com\ricky\controller\RestController.class
 com\ricky\controller\ScopeController.class
 com\ricky\controller\TestController.class

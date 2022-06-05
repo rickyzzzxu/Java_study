@@ -8,6 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-demo2" />
         <module name="spring-demo1" />
+        <module name="spring-jsp" />
+        <module name="spring-rest" />
+        <module name="spring-demo4" />
         <module name="spring-demo3" />
       </profile>
     </annotationProcessing>
@@ -15,6 +18,9 @@
       <module name="spring-demo1" target="1.5" />
       <module name="spring-demo2" target="1.5" />
       <module name="spring-demo3" target="1.5" />
+      <module name="spring-demo4" target="1.5" />
+      <module name="spring-jsp" target="1.5" />
+      <module name="spring-rest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
