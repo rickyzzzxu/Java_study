@@ -1,5 +1,0 @@
-com\ricky\config\WebConfig.class
-com\ricky\config\SpringConfig.class
-com\ricky\config\WebInit.class
-com\ricky\controller\TestController.class
-com\ricky\interceptor\TestInterceptor.class

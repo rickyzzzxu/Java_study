@@ -1,0 +1,6 @@
+127.0.0.1 - - [05/Jun/2022:18:48:28 +0800] "GET /employee HTTP/1.1" 404 - http-bio-9000-exec-1 0
+0:0:0:0:0:0:0:1 - - [05/Jun/2022:18:48:45 +0800] "GET /spring-rest HTTP/1.1" 302 - http-bio-9000-exec-3 0
+0:0:0:0:0:0:0:1 - - [05/Jun/2022:18:48:45 +0800] "GET /spring-rest/ HTTP/1.1" 200 215 http-bio-9000-exec-5 282
+0:0:0:0:0:0:0:1 - - [05/Jun/2022:18:48:46 +0800] "GET /spring-rest/employee HTTP/1.1" 200 3103 http-bio-9000-exec-6 41
+0:0:0:0:0:0:0:1 - - [05/Jun/2022:18:48:46 +0800] "GET /spring-rest/static/js/vue.js HTTP/1.1" 200 354110 http-bio-9000-exec-7 10
+127.0.0.1 - - [05/Jun/2022:18:48:59 +0800] "GET /spring-rest/employee HTTP/1.1" 200 3103 http-bio-9000-exec-9 4

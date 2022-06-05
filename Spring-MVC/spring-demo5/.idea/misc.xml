@@ -11,10 +11,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../springMVC-annotation/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring-test/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring-anno/pom.xml" />
       </list>
     </option>
   </component>
