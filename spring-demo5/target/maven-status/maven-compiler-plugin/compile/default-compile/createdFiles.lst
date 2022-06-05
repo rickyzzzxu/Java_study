@@ -1,0 +1,3 @@
+com\ricky\interceptors\FirstInterceptor.class
+com\ricky\controller\ExceptionController.class
+com\ricky\controller\TestController.class
