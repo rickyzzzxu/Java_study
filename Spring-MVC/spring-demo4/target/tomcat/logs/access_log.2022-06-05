@@ -12,3 +12,15 @@
 0:0:0:0:0:0:0:1 - - [05/Jun/2022:18:52:56 +0800] "GET /spring-demo4/testResponseBody HTTP/1.1" 200 18 http-bio-9000-exec-8 2
 127.0.0.1 - - [05/Jun/2022:18:53:21 +0800] "GET /testResponseBody HTTP/1.1" 404 - http-bio-9000-exec-3 0
 127.0.0.1 - - [05/Jun/2022:18:53:30 +0800] "GET /spring-demo4/ HTTP/1.1" 200 1703 http-bio-9000-exec-5 2
+127.0.0.1 - - [05/Jun/2022:23:21:56 +0800] "GET /spring-demo4/ HTTP/1.1" 200 1703 http-bio-9000-exec-7 32
+0:0:0:0:0:0:0:1 - - [05/Jun/2022:23:22:10 +0800] "GET /spring-demo4 HTTP/1.1" 302 - http-bio-9000-exec-2 0
+0:0:0:0:0:0:0:1 - - [05/Jun/2022:23:22:10 +0800] "GET /spring-demo4/ HTTP/1.1" 200 1703 http-bio-9000-exec-2 2
+0:0:0:0:0:0:0:1 - - [05/Jun/2022:23:22:13 +0800] "GET /spring-demo4/testResponseUser HTTP/1.1" 200 82 http-bio-9000-exec-2 111
+127.0.0.1 - - [05/Jun/2022:23:24:53 +0800] "GET /demo HTTP/1.1" 404 - http-bio-9000-exec-1 0
+127.0.0.1 - - [05/Jun/2022:23:25:23 +0800] "GET /demo HTTP/1.1" 404 - http-bio-9000-exec-3 0
+127.0.0.1 - - [05/Jun/2022:23:25:24 +0800] "GET /demo HTTP/1.1" 404 - http-bio-9000-exec-4 0
+127.0.0.1 - - [05/Jun/2022:23:25:24 +0800] "GET /demo HTTP/1.1" 404 - http-bio-9000-exec-5 0
+127.0.0.1 - - [05/Jun/2022:23:25:24 +0800] "GET /demo HTTP/1.1" 404 - http-bio-9000-exec-6 0
+127.0.0.1 - - [05/Jun/2022:23:25:24 +0800] "GET /demo HTTP/1.1" 404 - http-bio-9000-exec-7 0
+127.0.0.1 - - [05/Jun/2022:23:25:24 +0800] "GET /demo HTTP/1.1" 404 - http-bio-9000-exec-8 0
+127.0.0.1 - - [05/Jun/2022:23:25:24 +0800] "GET /demo HTTP/1.1" 404 - http-bio-9000-exec-9 0
