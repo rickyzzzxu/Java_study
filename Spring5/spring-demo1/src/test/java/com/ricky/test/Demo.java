@@ -1,5 +1,6 @@
 package com.ricky.test;
 
+import com.ricky.bean.Emp;
 import com.ricky.pojo.Student;
 import com.ricky.service.UserService;
 import org.junit.Test;
@@ -24,5 +25,11 @@ public class Demo {
         userService.add();
     }
 
+    @Test
+    public void demo3() {
+        ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
+        Emp emp = (Emp) ac.getBean("emp");
+        emp.add();
+    }
 
 }

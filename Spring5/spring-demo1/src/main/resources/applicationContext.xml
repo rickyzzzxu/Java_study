@@ -9,10 +9,20 @@
         <property name="age" value="19"/>
     </bean>-->
 
-    <bean id="userDao" class="com.ricky.dao.UserDaoImpl"/>
+    <!--<bean id="userDao" class="com.ricky.dao.UserDaoImpl"/>
 
     <bean id="userService" class="com.ricky.service.UserService">
         <property name="userDao" ref="userDao"/>
+    </bean>-->
+
+    <bean id="dept" class="com.ricky.bean.Dept">
+        <property name="dname" value="老六"/>
+    </bean>
+
+    <bean id="emp" class="com.ricky.bean.Emp">
+        <property name="ename" value="张三"/>
+        <property name="gender" value="男"/>
+        <property name="dept" ref="dept"/>
     </bean>
 
 

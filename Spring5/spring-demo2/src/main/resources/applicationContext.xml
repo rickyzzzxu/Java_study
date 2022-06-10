@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <!--<bean id="stu" class="com.ricky.pojo.Stu">
+        <property name="courses">
+            <array>
+                <value>zhangsan</value>
+                <value>lisi</value>
+            </array>
+        </property>
+        <property name="list">
+            <list>
+                <value>java</value>
+                <value>php</value>
+            </list>
+        </property>
+        <property name="maps">
+            <map>
+                <entry key="玩具" value="娃娃"/>
+                <entry key="手机" value="华为"/>
+            </map>
+        </property>
+        <property name="sets">
+            <set>
+                <value>语文</value>
+                <value>数学</value>
+            </set>
+        </property>
+        <property name="courseList">
+            <list>
+                <ref bean="course1"/>
+                <ref bean="course2"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="course1" class="com.ricky.pojo.Course">
+        <property name="cname" value="语文"/>
+    </bean>
+    <bean id="course2" class="com.ricky.pojo.Course">
+        <property name="cname" value="数学"/>
+    </bean>
+
+    <bean id="orders" class="com.ricky.bean.Orders" init-method="initMethod" destroy-method="destroyMethod">
+        <property name="oname" value="电话"/>
+    </bean>-->
+
+    <bean id="dept" class="com.ricky.autowire.Dept"/>
+    <bean id="emp" class="com.ricky.autowire.Emp" autowire="byType"/>
+
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${driverClass}"/>
+        <property name="url" value="${url}"/>
+        <property name="username" value="${userName}"/>
+        <property name="password" value="${password}"/>
+    </bean>
+
+</beans>

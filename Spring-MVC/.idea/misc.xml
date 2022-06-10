@@ -9,12 +9,13 @@
     <file type="web" url="file://$PROJECT_DIR$/spring-jsp" />
     <file type="web" url="file://$PROJECT_DIR$/spring-rest" />
     <file type="web" url="file://$PROJECT_DIR$/../Spring5/spring-demo1" />
+    <file type="web" url="file://$PROJECT_DIR$/../Spring5/spring-demo2" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/spring-demo6/pom.xml" />
-        <option value="$PROJECT_DIR$/../Spring5/spring-demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/../Spring5/spring-demo2/pom.xml" />
       </list>
     </option>
   </component>
