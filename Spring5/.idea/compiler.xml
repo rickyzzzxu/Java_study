@@ -14,7 +14,7 @@
     <bytecodeTargetLevel>
       <module name="spring-demo1" target="6" />
       <module name="spring-demo2" target="6" />
-      <module name="spring-demo3" target="6" />
+      <module name="spring-demo3" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
