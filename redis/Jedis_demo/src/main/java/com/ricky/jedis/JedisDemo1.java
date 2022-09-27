@@ -18,6 +18,7 @@ public class JedisDemo1 {
 
         System.out.println(ping);
 
+        jedis.close();
     }
 
     @Test
