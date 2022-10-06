@@ -2,32 +2,47 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot_01_02_base" />
+        <module name="springboot_druid" />
+        <module name="springboot_mybatis2" />
+        <module name="springboot_ssm" />
         <module name="springboot_junit" />
         <module name="springboot_mybatis" />
         <module name="springboot_01_01_quickstart" />
-        <module name="springboot_mybatis2" />
+        <module name="springboot_SSMP" />
+        <module name="springboot_12_hot_deploy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot_01_01_quickstart" target="1.8" />
       <module name="springboot_01_02_base" target="1.8" />
+      <module name="springboot_12_hot_deploy" target="1.8" />
+      <module name="springboot_druid" target="1.8" />
       <module name="springboot_junit" target="1.8" />
       <module name="springboot_mybatis" target="1.8" />
       <module name="springboot_mybatis2" target="1.8" />
+      <module name="springboot_ssm" target="1.8" />
+      <module name="springboot_ssmp" target="1.8" />
+      <module name="springboot_SSMP" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot_01_01_quickstart" options="-parameters" />
       <module name="springboot_01_02_base" options="-parameters" />
+      <module name="springboot_12_hot_deploy" options="-parameters" />
+      <module name="springboot_SSMP" options="-parameters" />
+      <module name="springboot_druid" options="-parameters" />
       <module name="springboot_junit" options="-parameters" />
       <module name="springboot_mybatis" options="-parameters" />
       <module name="springboot_mybatis2" options="-parameters" />
+      <module name="springboot_ssm" options="-parameters" />
+      <module name="springboot_ssmp" options="-parameters" />
     </option>
   </component>
 </project>
